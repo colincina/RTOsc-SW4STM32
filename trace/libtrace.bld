@@ -1,0 +1,10 @@
+#!build
+default:
+	library
+	:outputname=build/libs/libtrace.a
+	:object_dir=objs
+	:sysincdirs=../libAT91RM9200
+trace.cpp
+	C++
+trace.h
+	include_file

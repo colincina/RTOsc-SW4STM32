@@ -8,6 +8,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include xf/critical/subdir.mk
+-include xf/subdir.mk
 -include ugfx/src/tdisp/subdir.mk
 -include ugfx/src/gwin/subdir.mk
 -include ugfx/src/gtimer/subdir.mk
@@ -22,9 +24,12 @@ RM := rm -rf
 -include ugfx/src/gaudin/subdir.mk
 -include ugfx/src/gadc/subdir.mk
 -include ugfx/src/subdir.mk
+-include trace/examples/subdir.mk
+-include trace/subdir.mk
 -include startup/subdir.mk
 -include osc/subdir.mk
 -include mcu/subdir.mk
+-include cxfwrapper/cxf/subdir.mk
 -include board/subdir.mk
 -include Src/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
@@ -32,11 +37,26 @@ RM := rm -rf
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(CC_DEPS)),)
+-include $(CC_DEPS)
+endif
+ifneq ($(strip $(C++_DEPS)),)
+-include $(C++_DEPS)
+endif
+ifneq ($(strip $(C_UPPER_DEPS)),)
+-include $(C_UPPER_DEPS)
+endif
+ifneq ($(strip $(CXX_DEPS)),)
+-include $(CXX_DEPS)
+endif
 ifneq ($(strip $(S_UPPER_DEPS)),)
 -include $(S_UPPER_DEPS)
 endif
 ifneq ($(strip $(C_DEPS)),)
 -include $(C_DEPS)
+endif
+ifneq ($(strip $(CPP_DEPS)),)
+-include $(CPP_DEPS)
 endif
 endif
 
@@ -48,10 +68,10 @@ endif
 all: RTOsc-SW4STM32.elf
 
 # Tool invocations
-RTOsc-SW4STM32.elf: $(OBJS) $(USER_OBJS) ../STM32F417IGHx_FLASH.ld
+RTOsc-SW4STM32.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
-	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F417IGHx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "RTOsc-SW4STM32.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+	@echo 'Invoking: MCU G++ Linker'
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F417IGHx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -fno-exceptions -fno-rtti -o "RTOsc-SW4STM32.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
