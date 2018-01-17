@@ -29,6 +29,7 @@ Drivers/STM32F4xx_HAL_Driver/Src \
 Src \
 board \
 cxfwrapper/cxf \
+fsm \
 mcu \
 osc \
 startup \

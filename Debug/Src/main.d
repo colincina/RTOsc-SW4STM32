@@ -37,7 +37,8 @@ Src/main.o: ../Src/main.c \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/i2c.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/tim.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/fsmc.h
+ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/fsmc.h \
+ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/cxfwrapper/cxf/xf.h
 
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/main.h:
 
@@ -116,3 +117,5 @@ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/tim.h:
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h:
 
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/fsmc.h:
+
+C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/cxfwrapper/cxf/xf.h:

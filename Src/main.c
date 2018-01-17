@@ -44,6 +44,9 @@
 #include "tim.h"
 #include "gpio.h"
 #include "fsmc.h"
+#include "cxf/xf.h"
+
+#define POINTS_NB 300
 
 /* USER CODE BEGIN Includes */
 
@@ -52,9 +55,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-/* Private variables ---------------------------------------------------------*/
-#define POINTS_NB 300
 uint16_t points[POINTS_NB];
+/* Private variables ---------------------------------------------------------*/
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -73,7 +75,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+	xfInit(0.5); //TIM 6 @ 2kHz => tick intervall = 500 us //TODO change this in the XF
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -105,6 +107,7 @@ int main(void)
   HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_4);
   HAL_ADC_Start_IT(&hadc1);
   guiInit();
+  xfStart();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -114,7 +117,7 @@ int main(void)
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
-	  guiDrawGraphPoints(points, POINTS_NB);
+
   }
   /* USER CODE END 3 */
 

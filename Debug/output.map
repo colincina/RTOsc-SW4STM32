@@ -3,13 +3,13 @@ Archive member included to satisfy reference by file (symbol)
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_op.o)
                               xf/xf.o (operator new(unsigned int))
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(del_ops.o)
-                              xf/initialevent.o (operator delete(void*, unsigned int))
+                              fsm/StateMachine.o (operator delete(void*, unsigned int))
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_handler.o)
                               c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(new_op.o) (std::get_new_handler())
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(del_op.o)
                               xf/xfthread.o (operator delete(void*))
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(pure.o)
-                              xf/xfreactive.o (__cxa_pure_virtual)
+                              fsm/StateMachine.o (__cxa_pure_virtual)
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(list.o)
                               xf/xftimeoutmanager.o (std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*))
 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++_nano.a(string-inst.o)
@@ -5587,6 +5587,177 @@ Discarded input sections
  .debug_macro   0x00000000       0x40 cxfwrapper/cxf/wrapper.o
  .debug_macro   0x00000000       0xd7 cxfwrapper/cxf/wrapper.o
  .debug_macro   0x00000000       0x16 cxfwrapper/cxf/wrapper.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0xc fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .group         0x00000000        0x8 fsm/StateMachine.o
+ .text          0x00000000        0x0 fsm/StateMachine.o
+ .data          0x00000000        0x0 fsm/StateMachine.o
+ .bss           0x00000000        0x0 fsm/StateMachine.o
+ .rodata        0x00000000       0x20 fsm/StateMachine.o
+ .text._ZL20__gthread_key_deletei
+                0x00000000       0x16 fsm/StateMachine.o
+ .text._ZN11IXFReactiveC2Ev
+                0x00000000       0x20 fsm/StateMachine.o
+ .text._ZN11IXFReactiveD2Ev
+                0x00000000       0x20 fsm/StateMachine.o
+ .text._ZN11IXFReactiveD0Ev
+                0x00000000       0x20 fsm/StateMachine.o
+ .text._ZN12StateMachineC2Ev
+                0x00000000       0x24 fsm/StateMachine.o
+ .text._ZN12StateMachineD2Ev
+                0x00000000       0x24 fsm/StateMachine.o
+ .text._ZN12StateMachineD0Ev
+                0x00000000       0x20 fsm/StateMachine.o
+ .rodata._ZTV11IXFReactive
+                0x00000000       0x1c fsm/StateMachine.o
+ .debug_info    0x00000000     0x2986 fsm/StateMachine.o
+ .debug_abbrev  0x00000000      0x5ce fsm/StateMachine.o
+ .debug_aranges
+                0x00000000       0x50 fsm/StateMachine.o
+ .debug_ranges  0x00000000       0x40 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x4fb fsm/StateMachine.o
+ .debug_macro   0x00000000      0x99a fsm/StateMachine.o
+ .debug_macro   0x00000000      0x143 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x3ca fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x18 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x6e fsm/StateMachine.o
+ .debug_macro   0x00000000       0x28 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x3a fsm/StateMachine.o
+ .debug_macro   0x00000000       0x12 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x19 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x88 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x19 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x22 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x52 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x8d fsm/StateMachine.o
+ .debug_macro   0x00000000       0x35 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x9c fsm/StateMachine.o
+ .debug_macro   0x00000000      0x17b fsm/StateMachine.o
+ .debug_macro   0x00000000       0x57 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x58 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1f fsm/StateMachine.o
+ .debug_macro   0x00000000       0x43 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x20 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x187 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x3c fsm/StateMachine.o
+ .debug_macro   0x00000000      0x353 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x33 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x173 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0xef fsm/StateMachine.o
+ .debug_macro   0x00000000       0x6a fsm/StateMachine.o
+ .debug_macro   0x00000000      0x1d1 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x46 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x17 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x35 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x5e fsm/StateMachine.o
+ .debug_macro   0x00000000       0x16 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x4c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x5e fsm/StateMachine.o
+ .debug_macro   0x00000000       0x11 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x11 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x2f fsm/StateMachine.o
+ .debug_macro   0x00000000       0x16 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x16 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x16 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x29 fsm/StateMachine.o
+ .debug_macro   0x00000000       0xea fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x1c fsm/StateMachine.o
+ .debug_macro   0x00000000       0x52 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x40 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x40 fsm/StateMachine.o
+ .debug_macro   0x00000000       0xd7 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x16 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x184 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x11d fsm/StateMachine.o
+ .debug_macro   0x00000000       0x10 fsm/StateMachine.o
+ .debug_macro   0x00000000      0x241 fsm/StateMachine.o
+ .debug_macro   0x00000000       0x11 fsm/StateMachine.o
+ .debug_line    0x00000000      0xce1 fsm/StateMachine.o
+ .debug_str     0x00000000     0xc525 fsm/StateMachine.o
+ .comment       0x00000000       0x80 fsm/StateMachine.o
+ .debug_frame   0x00000000      0x118 fsm/StateMachine.o
+ .ARM.attributes
+                0x00000000       0x39 fsm/StateMachine.o
  .group         0x00000000        0x8 mcu/delay.o
  .group         0x00000000        0x8 mcu/delay.o
  .group         0x00000000        0x8 mcu/delay.o
@@ -25872,6 +26043,7 @@ LOAD Src/tim.o
 LOAD board/lcdbacklight.o
 LOAD board/lcdtouch.o
 LOAD cxfwrapper/cxf/wrapper.o
+LOAD fsm/StateMachine.o
 LOAD mcu/delay.o
 LOAD osc/gui.o
 LOAD startup/startup_stm32f417xx.o
@@ -27392,7 +27564,7 @@ LOAD c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15
                 0x0000107a       0x22 c:/ac6/systemworkbench/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.15.0.201708311556/tools/compiler/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(RTOsc-SW4STM32.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x48f7d
+.debug_info     0x00000000    0x48f6c
  .debug_info    0x00000000     0x111e Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_info    0x0000111e     0x15da Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
  .debug_info    0x000026f8     0x13f6 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o
@@ -27408,39 +27580,39 @@ OUTPUT(RTOsc-SW4STM32.elf elf32-littlearm)
  .debug_info    0x00013846     0x131f Src/fsmc.o
  .debug_info    0x00014b65      0xdd9 Src/gpio.o
  .debug_info    0x0001593e     0x1228 Src/i2c.o
- .debug_info    0x00016b66     0x1f17 Src/main.o
- .debug_info    0x00018a7d      0xc7b Src/stm32f4xx_hal_msp.o
- .debug_info    0x000196f8     0x13db Src/stm32f4xx_hal_timebase_TIM.o
- .debug_info    0x0001aad3     0x1158 Src/stm32f4xx_it.o
- .debug_info    0x0001bc2b      0xd30 Src/system_stm32f4xx.o
- .debug_info    0x0001c95b     0x1919 Src/tim.o
- .debug_info    0x0001e274      0xaa1 board/lcdbacklight.o
- .debug_info    0x0001ed15     0x2645 cxfwrapper/cxf/wrapper.o
- .debug_info    0x0002135a      0xa54 mcu/delay.o
- .debug_info    0x00021dae     0x105f osc/gui.o
- .debug_info    0x00022e0d       0x81 startup/startup_stm32f417xx.o
- .debug_info    0x00022e8e      0xd9e ugfx/src/gdisp/fonts.o
- .debug_info    0x00023c2c     0x33fb ugfx/src/gdisp/gdisp.o
- .debug_info    0x00027027     0x28d6 ugfx/src/gdisp/gdisp_lld_SSD2119.o
- .debug_info    0x000298fd      0xfa4 ugfx/src/gdisp/mcufont/mf_bwfont.o
- .debug_info    0x0002a8a1      0xa13 ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_info    0x0002b2b4     0x13c4 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_info    0x0002c678     0x128b ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_info    0x0002d903     0x1208 ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_info    0x0002eb0b      0xef7 ugfx/src/gevent/gevent.o
- .debug_info    0x0002fa02      0xa8e ugfx/src/gfx.o
- .debug_info    0x00030490      0x9c0 ugfx/src/ginput/ginput.o
- .debug_info    0x00030e50      0xcf8 ugfx/src/gos/no_os.o
- .debug_info    0x00031b48      0xba0 ugfx/src/gqueue/gqueue.o
- .debug_info    0x000326e8      0xdb0 ugfx/src/gtimer/gtimer.o
- .debug_info    0x00033498     0x17bb ugfx/src/gwin/graph.o
- .debug_info    0x00034c53     0x1622 ugfx/src/gwin/gwidget.o
- .debug_info    0x00036275     0x1d37 ugfx/src/gwin/gwin.o
- .debug_info    0x00037fac     0x146e ugfx/src/gwin/gwm.o
- .debug_info    0x0003941a     0x1311 ugfx/src/gwin/label.o
- .debug_info    0x0003a72b       0xa2 xf/critical/critical.o
- .debug_info    0x0003a7cd     0x8760 xf/xfthread.o
- .debug_info    0x00042f2d     0x6050 xf/xftimeoutmanager.o
+ .debug_info    0x00016b66     0x1f06 Src/main.o
+ .debug_info    0x00018a6c      0xc7b Src/stm32f4xx_hal_msp.o
+ .debug_info    0x000196e7     0x13db Src/stm32f4xx_hal_timebase_TIM.o
+ .debug_info    0x0001aac2     0x1158 Src/stm32f4xx_it.o
+ .debug_info    0x0001bc1a      0xd30 Src/system_stm32f4xx.o
+ .debug_info    0x0001c94a     0x1919 Src/tim.o
+ .debug_info    0x0001e263      0xaa1 board/lcdbacklight.o
+ .debug_info    0x0001ed04     0x2645 cxfwrapper/cxf/wrapper.o
+ .debug_info    0x00021349      0xa54 mcu/delay.o
+ .debug_info    0x00021d9d     0x105f osc/gui.o
+ .debug_info    0x00022dfc       0x81 startup/startup_stm32f417xx.o
+ .debug_info    0x00022e7d      0xd9e ugfx/src/gdisp/fonts.o
+ .debug_info    0x00023c1b     0x33fb ugfx/src/gdisp/gdisp.o
+ .debug_info    0x00027016     0x28d6 ugfx/src/gdisp/gdisp_lld_SSD2119.o
+ .debug_info    0x000298ec      0xfa4 ugfx/src/gdisp/mcufont/mf_bwfont.o
+ .debug_info    0x0002a890      0xa13 ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_info    0x0002b2a3     0x13c4 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_info    0x0002c667     0x128b ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_info    0x0002d8f2     0x1208 ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_info    0x0002eafa      0xef7 ugfx/src/gevent/gevent.o
+ .debug_info    0x0002f9f1      0xa8e ugfx/src/gfx.o
+ .debug_info    0x0003047f      0x9c0 ugfx/src/ginput/ginput.o
+ .debug_info    0x00030e3f      0xcf8 ugfx/src/gos/no_os.o
+ .debug_info    0x00031b37      0xba0 ugfx/src/gqueue/gqueue.o
+ .debug_info    0x000326d7      0xdb0 ugfx/src/gtimer/gtimer.o
+ .debug_info    0x00033487     0x17bb ugfx/src/gwin/graph.o
+ .debug_info    0x00034c42     0x1622 ugfx/src/gwin/gwidget.o
+ .debug_info    0x00036264     0x1d37 ugfx/src/gwin/gwin.o
+ .debug_info    0x00037f9b     0x146e ugfx/src/gwin/gwm.o
+ .debug_info    0x00039409     0x1311 ugfx/src/gwin/label.o
+ .debug_info    0x0003a71a       0xa2 xf/critical/critical.o
+ .debug_info    0x0003a7bc     0x8760 xf/xfthread.o
+ .debug_info    0x00042f1c     0x6050 xf/xftimeoutmanager.o
 
 .debug_abbrev   0x00000000     0x8b70
  .debug_abbrev  0x00000000      0x2f2 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -27679,7 +27851,7 @@ OUTPUT(RTOsc-SW4STM32.elf elf32-littlearm)
  .debug_ranges  0x000017d8      0x350 xf/xfthread.o
  .debug_ranges  0x00001b28      0x260 xf/xftimeoutmanager.o
 
-.debug_macro    0x00000000    0x2ec55
+.debug_macro    0x00000000    0x2ec5f
  .debug_macro   0x00000000      0x3c1 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x000003c1      0x8c8 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x00000c89       0x22 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -27759,152 +27931,152 @@ OUTPUT(RTOsc-SW4STM32.elf elf32-littlearm)
  .debug_macro   0x000223a6      0x375 Src/fsmc.o
  .debug_macro   0x0002271b      0x36b Src/gpio.o
  .debug_macro   0x00022a86      0x375 Src/i2c.o
- .debug_macro   0x00022dfb      0x39e Src/main.o
- .debug_macro   0x00023199      0x361 Src/stm32f4xx_hal_msp.o
- .debug_macro   0x000234fa      0x361 Src/stm32f4xx_hal_timebase_TIM.o
- .debug_macro   0x0002385b      0x36b Src/stm32f4xx_it.o
- .debug_macro   0x00023bc6      0x36c Src/system_stm32f4xx.o
- .debug_macro   0x00023f32      0x36b Src/tim.o
- .debug_macro   0x0002429d      0x36b board/lcdbacklight.o
- .debug_macro   0x00024608      0x6f1 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00024cf9      0x99a cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025693      0x143 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000257d6       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000257e6      0x3ca cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025bb0       0x1c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025bcc       0x18 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025be4       0x6e cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025c52       0x28 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025c7a       0x3a cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025cb4       0x12 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025cc6       0x1c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025ce2       0x19 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025cfb       0x88 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025d83       0x19 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025d9c       0x46 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025de2       0x17 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025df9       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025e09       0x11 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025e1a       0x11 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025e2b       0x11 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025e3c       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025e4c       0x52 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025e9e       0x8d cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025f2b       0x9c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00025fc7      0x17b cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026142       0x57 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026199       0x43 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000261dc       0x1c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000261f8       0x3c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026234      0x353 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026587       0x1c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000265a3       0x33 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000265d6      0x173 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026749       0x1c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026765      0x1d1 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026936       0x35 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x0002696b       0x5e cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000269c9       0x16 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000269df       0x4c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026a2b       0x5e cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026a89       0x11 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026a9a       0x2f cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026ac9       0x16 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026adf       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026aef       0x16 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026b05       0x16 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026b1b       0x29 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026b44       0xea cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026c2e       0x1c cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026c4a      0x184 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026dce      0x11d cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026eeb       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x00026efb      0x241 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x0002713c       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x0002714c       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x0002715c       0x76 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000271d2       0x16 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000271e8       0x10 cxfwrapper/cxf/wrapper.o
- .debug_macro   0x000271f8      0x36b mcu/delay.o
- .debug_macro   0x00027563      0x379 osc/gui.o
- .debug_macro   0x000278dc      0x174 osc/gui.o
- .debug_macro   0x00027a50       0x10 osc/gui.o
- .debug_macro   0x00027a60       0x35 osc/gui.o
- .debug_macro   0x00027a95       0x1c osc/gui.o
- .debug_macro   0x00027ab1      0x208 osc/gui.o
- .debug_macro   0x00027cb9       0x2e osc/gui.o
- .debug_macro   0x00027ce7       0x16 osc/gui.o
- .debug_macro   0x00027cfd       0x16 osc/gui.o
- .debug_macro   0x00027d13       0x16 osc/gui.o
- .debug_macro   0x00027d29       0x1f osc/gui.o
- .debug_macro   0x00027d48       0x2b osc/gui.o
- .debug_macro   0x00027d73       0x22 osc/gui.o
- .debug_macro   0x00027d95       0x10 osc/gui.o
- .debug_macro   0x00027da5       0x10 osc/gui.o
- .debug_macro   0x00027db5       0x9a osc/gui.o
- .debug_macro   0x00027e4f       0x2e osc/gui.o
- .debug_macro   0x00027e7d       0x49 osc/gui.o
- .debug_macro   0x00027ec6       0x34 osc/gui.o
- .debug_macro   0x00027efa       0x10 osc/gui.o
- .debug_macro   0x00027f0a       0x25 osc/gui.o
- .debug_macro   0x00027f2f       0x28 osc/gui.o
- .debug_macro   0x00027f57       0x19 osc/gui.o
- .debug_macro   0x00027f70      0x1d1 osc/gui.o
- .debug_macro   0x00028141      0x12a osc/gui.o
- .debug_macro   0x0002826b       0x71 osc/gui.o
- .debug_macro   0x000282dc       0x3c osc/gui.o
- .debug_macro   0x00028318       0x16 osc/gui.o
- .debug_macro   0x0002832e       0x1c osc/gui.o
- .debug_macro   0x0002834a       0x16 osc/gui.o
- .debug_macro   0x00028360       0x16 osc/gui.o
- .debug_macro   0x00028376       0x10 osc/gui.o
- .debug_macro   0x00028386       0x10 osc/gui.o
- .debug_macro   0x00028396       0x46 osc/gui.o
- .debug_macro   0x000283dc       0x10 osc/gui.o
- .debug_macro   0x000283ec       0x70 osc/gui.o
- .debug_macro   0x0002845c      0x3df ugfx/src/gdisp/fonts.o
- .debug_macro   0x0002883b       0x74 ugfx/src/gdisp/fonts.o
- .debug_macro   0x000288af       0x16 ugfx/src/gdisp/fonts.o
- .debug_macro   0x000288c5       0x22 ugfx/src/gdisp/fonts.o
- .debug_macro   0x000288e7       0x10 ugfx/src/gdisp/fonts.o
- .debug_macro   0x000288f7      0x438 ugfx/src/gdisp/gdisp.o
- .debug_macro   0x00028d2f      0x161 ugfx/src/gdisp/gdisp.o
- .debug_macro   0x00028e90      0x602 ugfx/src/gdisp/gdisp_lld_SSD2119.o
- .debug_macro   0x00029492       0x3b ugfx/src/gdisp/gdisp_lld_SSD2119.o
- .debug_macro   0x000294cd       0x16 ugfx/src/gdisp/gdisp_lld_SSD2119.o
- .debug_macro   0x000294e3      0x118 ugfx/src/gdisp/gdisp_lld_SSD2119.o
- .debug_macro   0x000295fb      0x389 ugfx/src/gdisp/mcufont/mf_bwfont.o
- .debug_macro   0x00029984       0x10 ugfx/src/gdisp/mcufont/mf_bwfont.o
- .debug_macro   0x00029994      0x361 ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_macro   0x00029cf5      0x419 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a10e       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a120       0x10 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a130       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a142       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a154       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a166       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a178       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a18a       0x12 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_macro   0x0002a19c      0x39c ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_macro   0x0002a538      0x3d4 ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_macro   0x0002a90c      0x34e ugfx/src/gevent/gevent.o
- .debug_macro   0x0002ac5a      0x348 ugfx/src/gfx.o
- .debug_macro   0x0002afa2      0x348 ugfx/src/ginput/ginput.o
- .debug_macro   0x0002b2ea      0x369 ugfx/src/gos/no_os.o
- .debug_macro   0x0002b653      0x348 ugfx/src/gqueue/gqueue.o
- .debug_macro   0x0002b99b      0x366 ugfx/src/gtimer/gtimer.o
- .debug_macro   0x0002bd01      0x39e ugfx/src/gwin/graph.o
- .debug_macro   0x0002c09f      0x3b7 ugfx/src/gwin/gwidget.o
- .debug_macro   0x0002c456      0x369 ugfx/src/gwin/gwin.o
- .debug_macro   0x0002c7bf      0x35d ugfx/src/gwin/gwm.o
- .debug_macro   0x0002cb1c      0x369 ugfx/src/gwin/label.o
- .debug_macro   0x0002ce85       0x1b xf/critical/critical.o
- .debug_macro   0x0002cea0      0x6ed xf/xfthread.o
- .debug_macro   0x0002d58d      0x83c xf/xftimeoutmanager.o
- .debug_macro   0x0002ddc9      0xe66 xf/xftimeoutmanager.o
- .debug_macro   0x0002ec2f       0x26 xf/xftimeoutmanager.o
+ .debug_macro   0x00022dfb      0x3a8 Src/main.o
+ .debug_macro   0x000231a3      0x361 Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00023504      0x361 Src/stm32f4xx_hal_timebase_TIM.o
+ .debug_macro   0x00023865      0x36b Src/stm32f4xx_it.o
+ .debug_macro   0x00023bd0      0x36c Src/system_stm32f4xx.o
+ .debug_macro   0x00023f3c      0x36b Src/tim.o
+ .debug_macro   0x000242a7      0x36b board/lcdbacklight.o
+ .debug_macro   0x00024612      0x6f1 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00024d03      0x99a cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x0002569d      0x143 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000257e0       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000257f0      0x3ca cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025bba       0x1c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025bd6       0x18 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025bee       0x6e cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025c5c       0x28 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025c84       0x3a cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025cbe       0x12 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025cd0       0x1c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025cec       0x19 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025d05       0x88 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025d8d       0x19 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025da6       0x46 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025dec       0x17 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025e03       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025e13       0x11 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025e24       0x11 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025e35       0x11 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025e46       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025e56       0x52 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025ea8       0x8d cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025f35       0x9c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00025fd1      0x17b cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x0002614c       0x57 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000261a3       0x43 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000261e6       0x1c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026202       0x3c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x0002623e      0x353 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026591       0x1c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000265ad       0x33 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000265e0      0x173 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026753       0x1c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x0002676f      0x1d1 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026940       0x35 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026975       0x5e cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000269d3       0x16 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000269e9       0x4c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026a35       0x5e cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026a93       0x11 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026aa4       0x2f cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026ad3       0x16 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026ae9       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026af9       0x16 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026b0f       0x16 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026b25       0x29 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026b4e       0xea cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026c38       0x1c cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026c54      0x184 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026dd8      0x11d cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026ef5       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00026f05      0x241 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00027146       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00027156       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00027166       0x76 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000271dc       0x16 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x000271f2       0x10 cxfwrapper/cxf/wrapper.o
+ .debug_macro   0x00027202      0x36b mcu/delay.o
+ .debug_macro   0x0002756d      0x379 osc/gui.o
+ .debug_macro   0x000278e6      0x174 osc/gui.o
+ .debug_macro   0x00027a5a       0x10 osc/gui.o
+ .debug_macro   0x00027a6a       0x35 osc/gui.o
+ .debug_macro   0x00027a9f       0x1c osc/gui.o
+ .debug_macro   0x00027abb      0x208 osc/gui.o
+ .debug_macro   0x00027cc3       0x2e osc/gui.o
+ .debug_macro   0x00027cf1       0x16 osc/gui.o
+ .debug_macro   0x00027d07       0x16 osc/gui.o
+ .debug_macro   0x00027d1d       0x16 osc/gui.o
+ .debug_macro   0x00027d33       0x1f osc/gui.o
+ .debug_macro   0x00027d52       0x2b osc/gui.o
+ .debug_macro   0x00027d7d       0x22 osc/gui.o
+ .debug_macro   0x00027d9f       0x10 osc/gui.o
+ .debug_macro   0x00027daf       0x10 osc/gui.o
+ .debug_macro   0x00027dbf       0x9a osc/gui.o
+ .debug_macro   0x00027e59       0x2e osc/gui.o
+ .debug_macro   0x00027e87       0x49 osc/gui.o
+ .debug_macro   0x00027ed0       0x34 osc/gui.o
+ .debug_macro   0x00027f04       0x10 osc/gui.o
+ .debug_macro   0x00027f14       0x25 osc/gui.o
+ .debug_macro   0x00027f39       0x28 osc/gui.o
+ .debug_macro   0x00027f61       0x19 osc/gui.o
+ .debug_macro   0x00027f7a      0x1d1 osc/gui.o
+ .debug_macro   0x0002814b      0x12a osc/gui.o
+ .debug_macro   0x00028275       0x71 osc/gui.o
+ .debug_macro   0x000282e6       0x3c osc/gui.o
+ .debug_macro   0x00028322       0x16 osc/gui.o
+ .debug_macro   0x00028338       0x1c osc/gui.o
+ .debug_macro   0x00028354       0x16 osc/gui.o
+ .debug_macro   0x0002836a       0x16 osc/gui.o
+ .debug_macro   0x00028380       0x10 osc/gui.o
+ .debug_macro   0x00028390       0x10 osc/gui.o
+ .debug_macro   0x000283a0       0x46 osc/gui.o
+ .debug_macro   0x000283e6       0x10 osc/gui.o
+ .debug_macro   0x000283f6       0x70 osc/gui.o
+ .debug_macro   0x00028466      0x3df ugfx/src/gdisp/fonts.o
+ .debug_macro   0x00028845       0x74 ugfx/src/gdisp/fonts.o
+ .debug_macro   0x000288b9       0x16 ugfx/src/gdisp/fonts.o
+ .debug_macro   0x000288cf       0x22 ugfx/src/gdisp/fonts.o
+ .debug_macro   0x000288f1       0x10 ugfx/src/gdisp/fonts.o
+ .debug_macro   0x00028901      0x438 ugfx/src/gdisp/gdisp.o
+ .debug_macro   0x00028d39      0x161 ugfx/src/gdisp/gdisp.o
+ .debug_macro   0x00028e9a      0x602 ugfx/src/gdisp/gdisp_lld_SSD2119.o
+ .debug_macro   0x0002949c       0x3b ugfx/src/gdisp/gdisp_lld_SSD2119.o
+ .debug_macro   0x000294d7       0x16 ugfx/src/gdisp/gdisp_lld_SSD2119.o
+ .debug_macro   0x000294ed      0x118 ugfx/src/gdisp/gdisp_lld_SSD2119.o
+ .debug_macro   0x00029605      0x389 ugfx/src/gdisp/mcufont/mf_bwfont.o
+ .debug_macro   0x0002998e       0x10 ugfx/src/gdisp/mcufont/mf_bwfont.o
+ .debug_macro   0x0002999e      0x361 ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_macro   0x00029cff      0x419 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a118       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a12a       0x10 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a13a       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a14c       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a15e       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a170       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a182       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a194       0x12 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_macro   0x0002a1a6      0x39c ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_macro   0x0002a542      0x3d4 ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_macro   0x0002a916      0x34e ugfx/src/gevent/gevent.o
+ .debug_macro   0x0002ac64      0x348 ugfx/src/gfx.o
+ .debug_macro   0x0002afac      0x348 ugfx/src/ginput/ginput.o
+ .debug_macro   0x0002b2f4      0x369 ugfx/src/gos/no_os.o
+ .debug_macro   0x0002b65d      0x348 ugfx/src/gqueue/gqueue.o
+ .debug_macro   0x0002b9a5      0x366 ugfx/src/gtimer/gtimer.o
+ .debug_macro   0x0002bd0b      0x39e ugfx/src/gwin/graph.o
+ .debug_macro   0x0002c0a9      0x3b7 ugfx/src/gwin/gwidget.o
+ .debug_macro   0x0002c460      0x369 ugfx/src/gwin/gwin.o
+ .debug_macro   0x0002c7c9      0x35d ugfx/src/gwin/gwm.o
+ .debug_macro   0x0002cb26      0x369 ugfx/src/gwin/label.o
+ .debug_macro   0x0002ce8f       0x1b xf/critical/critical.o
+ .debug_macro   0x0002ceaa      0x6ed xf/xfthread.o
+ .debug_macro   0x0002d597      0x83c xf/xftimeoutmanager.o
+ .debug_macro   0x0002ddd3      0xe66 xf/xftimeoutmanager.o
+ .debug_macro   0x0002ec39       0x26 xf/xftimeoutmanager.o
 
-.debug_line     0x00000000    0x23547
+.debug_line     0x00000000    0x23594
  .debug_line    0x00000000      0xa04 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_line    0x00000a04      0xcd9 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
  .debug_line    0x000016dd      0xba9 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o
@@ -27920,39 +28092,39 @@ OUTPUT(RTOsc-SW4STM32.elf elf32-littlearm)
  .debug_line    0x0000a264      0x8f0 Src/fsmc.o
  .debug_line    0x0000ab54      0x87b Src/gpio.o
  .debug_line    0x0000b3cf      0x8a5 Src/i2c.o
- .debug_line    0x0000bc74      0x930 Src/main.o
- .debug_line    0x0000c5a4      0x86c Src/stm32f4xx_hal_msp.o
- .debug_line    0x0000ce10      0x89f Src/stm32f4xx_hal_timebase_TIM.o
- .debug_line    0x0000d6af      0x926 Src/stm32f4xx_it.o
- .debug_line    0x0000dfd5      0x897 Src/system_stm32f4xx.o
- .debug_line    0x0000e86c      0x92f Src/tim.o
- .debug_line    0x0000f19b      0x881 board/lcdbacklight.o
- .debug_line    0x0000fa1c      0xf5b cxfwrapper/cxf/wrapper.o
- .debug_line    0x00010977      0x8a8 mcu/delay.o
- .debug_line    0x0001121f      0xa7d osc/gui.o
- .debug_line    0x00011c9c       0x7f startup/startup_stm32f417xx.o
- .debug_line    0x00011d1b      0xb4b ugfx/src/gdisp/fonts.o
- .debug_line    0x00012866     0x13f9 ugfx/src/gdisp/gdisp.o
- .debug_line    0x00013c5f     0x13c3 ugfx/src/gdisp/gdisp_lld_SSD2119.o
- .debug_line    0x00015022      0xb19 ugfx/src/gdisp/mcufont/mf_bwfont.o
- .debug_line    0x00015b3b      0xa44 ugfx/src/gdisp/mcufont/mf_encoding.o
- .debug_line    0x0001657f      0xc08 ugfx/src/gdisp/mcufont/mf_font.o
- .debug_line    0x00017187      0xb7c ugfx/src/gdisp/mcufont/mf_justify.o
- .debug_line    0x00017d03      0xb9d ugfx/src/gdisp/mcufont/mf_rlefont.o
- .debug_line    0x000188a0      0xb45 ugfx/src/gevent/gevent.o
- .debug_line    0x000193e5      0xa10 ugfx/src/gfx.o
- .debug_line    0x00019df5      0xa02 ugfx/src/ginput/ginput.o
- .debug_line    0x0001a7f7      0xac0 ugfx/src/gos/no_os.o
- .debug_line    0x0001b2b7      0xa97 ugfx/src/gqueue/gqueue.o
- .debug_line    0x0001bd4e      0xae6 ugfx/src/gtimer/gtimer.o
- .debug_line    0x0001c834      0xbe7 ugfx/src/gwin/graph.o
- .debug_line    0x0001d41b      0xc0d ugfx/src/gwin/gwidget.o
- .debug_line    0x0001e028      0xcf2 ugfx/src/gwin/gwin.o
- .debug_line    0x0001ed1a      0xb88 ugfx/src/gwin/gwm.o
- .debug_line    0x0001f8a2      0xac8 ugfx/src/gwin/label.o
- .debug_line    0x0002036a       0x81 xf/critical/critical.o
- .debug_line    0x000203eb     0x17f0 xf/xfthread.o
- .debug_line    0x00021bdb     0x196c xf/xftimeoutmanager.o
+ .debug_line    0x0000bc74      0x97d Src/main.o
+ .debug_line    0x0000c5f1      0x86c Src/stm32f4xx_hal_msp.o
+ .debug_line    0x0000ce5d      0x89f Src/stm32f4xx_hal_timebase_TIM.o
+ .debug_line    0x0000d6fc      0x926 Src/stm32f4xx_it.o
+ .debug_line    0x0000e022      0x897 Src/system_stm32f4xx.o
+ .debug_line    0x0000e8b9      0x92f Src/tim.o
+ .debug_line    0x0000f1e8      0x881 board/lcdbacklight.o
+ .debug_line    0x0000fa69      0xf5b cxfwrapper/cxf/wrapper.o
+ .debug_line    0x000109c4      0x8a8 mcu/delay.o
+ .debug_line    0x0001126c      0xa7d osc/gui.o
+ .debug_line    0x00011ce9       0x7f startup/startup_stm32f417xx.o
+ .debug_line    0x00011d68      0xb4b ugfx/src/gdisp/fonts.o
+ .debug_line    0x000128b3     0x13f9 ugfx/src/gdisp/gdisp.o
+ .debug_line    0x00013cac     0x13c3 ugfx/src/gdisp/gdisp_lld_SSD2119.o
+ .debug_line    0x0001506f      0xb19 ugfx/src/gdisp/mcufont/mf_bwfont.o
+ .debug_line    0x00015b88      0xa44 ugfx/src/gdisp/mcufont/mf_encoding.o
+ .debug_line    0x000165cc      0xc08 ugfx/src/gdisp/mcufont/mf_font.o
+ .debug_line    0x000171d4      0xb7c ugfx/src/gdisp/mcufont/mf_justify.o
+ .debug_line    0x00017d50      0xb9d ugfx/src/gdisp/mcufont/mf_rlefont.o
+ .debug_line    0x000188ed      0xb45 ugfx/src/gevent/gevent.o
+ .debug_line    0x00019432      0xa10 ugfx/src/gfx.o
+ .debug_line    0x00019e42      0xa02 ugfx/src/ginput/ginput.o
+ .debug_line    0x0001a844      0xac0 ugfx/src/gos/no_os.o
+ .debug_line    0x0001b304      0xa97 ugfx/src/gqueue/gqueue.o
+ .debug_line    0x0001bd9b      0xae6 ugfx/src/gtimer/gtimer.o
+ .debug_line    0x0001c881      0xbe7 ugfx/src/gwin/graph.o
+ .debug_line    0x0001d468      0xc0d ugfx/src/gwin/gwidget.o
+ .debug_line    0x0001e075      0xcf2 ugfx/src/gwin/gwin.o
+ .debug_line    0x0001ed67      0xb88 ugfx/src/gwin/gwm.o
+ .debug_line    0x0001f8ef      0xac8 ugfx/src/gwin/label.o
+ .debug_line    0x000203b7       0x81 xf/critical/critical.o
+ .debug_line    0x00020438     0x17f0 xf/xfthread.o
+ .debug_line    0x00021c28     0x196c xf/xftimeoutmanager.o
 
 .debug_str      0x00000000    0xe2084
  .debug_str     0x00000000    0xc9018 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -27985,21 +28157,21 @@ OUTPUT(RTOsc-SW4STM32.elf elf32-littlearm)
                               0xc898a (size before relaxing)
  .debug_str     0x000cc881       0x33 Src/i2c.o
                               0xc8eae (size before relaxing)
- .debug_str     0x000cc8b4       0xa9 Src/main.o
-                              0xc9b5e (size before relaxing)
- .debug_str     0x000cc95d       0x1b Src/stm32f4xx_hal_msp.o
+ .debug_str     0x000cc8b4       0xb9 Src/main.o
+                              0xc9b6e (size before relaxing)
+ .debug_str     0x000cc96d       0x1b Src/stm32f4xx_hal_msp.o
                               0xc8cfb (size before relaxing)
- .debug_str     0x000cc978       0x61 Src/stm32f4xx_hal_timebase_TIM.o
+ .debug_str     0x000cc988       0x61 Src/stm32f4xx_hal_timebase_TIM.o
                               0xc9360 (size before relaxing)
- .debug_str     0x000cc9d9       0xdf Src/stm32f4xx_it.o
+ .debug_str     0x000cc9e9       0xdf Src/stm32f4xx_it.o
                               0xc8e56 (size before relaxing)
- .debug_str     0x000ccab8       0x5a Src/system_stm32f4xx.o
+ .debug_str     0x000ccac8       0x5a Src/system_stm32f4xx.o
                               0xc8960 (size before relaxing)
- .debug_str     0x000ccb12       0x52 Src/tim.o
+ .debug_str     0x000ccb22       0x52 Src/tim.o
                               0xc95dd (size before relaxing)
- .debug_str     0x000ccb64       0x5e board/lcdbacklight.o
+ .debug_str     0x000ccb74       0x5e board/lcdbacklight.o
                               0xc8848 (size before relaxing)
- .debug_str     0x000ccbc2     0x50d4 cxfwrapper/cxf/wrapper.o
+ .debug_str     0x000ccbd2     0x50c4 cxfwrapper/cxf/wrapper.o
                                0xc6c2 (size before relaxing)
  .debug_str     0x000d1c96       0x4b mcu/delay.o
                               0xc8808 (size before relaxing)

@@ -29,6 +29,7 @@ RM := rm -rf
 -include startup/subdir.mk
 -include osc/subdir.mk
 -include mcu/subdir.mk
+-include fsm/subdir.mk
 -include cxfwrapper/cxf/subdir.mk
 -include board/subdir.mk
 -include Src/subdir.mk
