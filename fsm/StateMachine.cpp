@@ -7,25 +7,19 @@
 
 #include <fsm/StateMachine.h>
 
-StateMachine::StateMachine() :
-currentState(ST_INIT)
+StateMachine::StateMachine(uint16_t* pArrAdd, uint16_t pLength, uint16_t* triglvlAddr) :
+currentState(ST_INIT),
+points(pArrAdd),
+length(pLength),
+triggerLevel(triglvlAddr)
 {}
 
 StateMachine::~StateMachine()
 {}
 
-void StateMachine::startBehavior()
-{
-	GEN(InitialEvent());
-}
-
-void StateMachine::pushEvent(XFEvent* pEvent)
-{
-	XF::getMainThread()->pushEvent(pEvent);
-}
-
 EventStatus StateMachine::process(XFEvent* pEvent)
 {
+	EventStatus evStat;
 	SM_STATES oldstates = currentState;
 	switch(currentState)
 	{
@@ -59,15 +53,22 @@ EventStatus StateMachine::process(XFEvent* pEvent)
 		switch (currentState)
 		{
 			case ST_WAIT:
-				scheduleTimeout(0, 16);
+				scheduleTimeout(0, 1600);
 				break;
 
 			case ST_DISPLAY:
-				guiDrawGraphPoints(points, POINTS_NB);
+				guiDrawGraphPoints(points, length, triggerLevel);
+				GEN(XFNullTransition());
 				break;
 
 			default:
 				break;
 		}
+		evStat._status = eEventStatus::Consumed;
 	}
+	else
+	{
+		evStat._status = eEventStatus::NotConsumed;
+	}
+	return evStat;
 }

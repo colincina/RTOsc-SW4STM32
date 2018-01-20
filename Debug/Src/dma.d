@@ -1,5 +1,5 @@
-Src/main.o: ../Src/main.c \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/main.h \
+Src/dma.o: ../Src/dma.c \
+ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/dma.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/stm32f4xx_hal_conf.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/main.h \
@@ -32,15 +32,9 @@ Src/main.o: ../Src/main.c \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/adc.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/dma.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/i2c.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/tim.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/fsmc.h
+ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/main.h:
+C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/dma.h:
 
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
@@ -107,15 +101,3 @@ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Dri
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
-
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/adc.h:
-
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/dma.h:
-
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/i2c.h:
-
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/tim.h:
-
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h:
-
-C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/fsmc.h:

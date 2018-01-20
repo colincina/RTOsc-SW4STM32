@@ -33,7 +33,8 @@ Src/adc.o: ../Src/adc.c \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h
+ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h \
+ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/dma.h
 
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/adc.h:
 
@@ -104,3 +105,5 @@ C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Dri
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
 C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/gpio.h:
+
+C:/Users/Colin\ Cina/Desktop/RTOsc_Proj/RTOsc-SW4STM32/Inc/dma.h:

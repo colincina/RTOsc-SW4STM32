@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../fsm/FSMWrapper.cpp \
 ../fsm/StateMachine.cpp 
 
 OBJS += \
+./fsm/FSMWrapper.o \
 ./fsm/StateMachine.o 
 
 CPP_DEPS += \
+./fsm/FSMWrapper.d \
 ./fsm/StateMachine.d 
 
 

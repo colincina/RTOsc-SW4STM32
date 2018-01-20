@@ -40,22 +40,22 @@
 #include "main.h"
 #include "stm32f4xx_hal.h"
 #include "adc.h"
+#include "dma.h"
 #include "i2c.h"
 #include "tim.h"
 #include "gpio.h"
 #include "fsmc.h"
-#include "cxf/xf.h"
-
-#define POINTS_NB 300
 
 /* USER CODE BEGIN Includes */
-
+#define POINTS_NB 300
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
 uint16_t points[POINTS_NB];
+uint16_t index = 0;
+uint16_t triggerLevel = 0;
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE END PV */
 
@@ -75,7 +75,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-	xfInit(0.5); //TIM 6 @ 2kHz => tick intervall = 500 us //TODO change this in the XF
+	xfInit(500); //TIM 6 @ 2kHz => tick intervall = 500 us This means the timeouts have to be scheduled in us
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -84,7 +84,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  fsmSetUp(points, POINTS_NB, &triggerLevel);
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -96,16 +96,19 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_ADC1_Init();
   MX_TIM1_Init();
   MX_FSMC_Init();
   MX_I2C1_Init();
   MX_TIM5_Init();
+  MX_ADC2_Init();
 
   /* USER CODE BEGIN 2 */
   HAL_TIM_OC_Start_IT(&htim1, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim5, TIM_CHANNEL_4);
   HAL_ADC_Start_IT(&hadc1);
+  HAL_ADC_Start_IT(&hadc2);
   guiInit();
   xfStart();
   /* USER CODE END 2 */
@@ -182,28 +185,34 @@ void SystemClock_Config(void)
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
 	volatile uint32_t value = HAL_ADC_GetValue(hadc);
-	cyclePushValue((uint16_t) value);
+
+	//ADC1 measures the level of the input signal
+	if(hadc->Instance->SR == hadc1.Instance->SR)
+	{
+		cyclePushValue((uint16_t) value);
+	}
+
+	//ADC2 measures the level of the trigger
+	else if(hadc->Instance->SR == hadc2.Instance->SR)
+	{
+		triggerLevel = (uint16_t)value;
+	}
 }
 
 void cyclePushValue(uint16_t value)
 {
-	for(int i = 0; i < POINTS_NB; i++)
+	points[index] = value;
+	index++;
+	if(index%POINTS_NB == 0)
 	{
-		if(i == POINTS_NB - 1)
-		{
-			points[i] = value;
-		}
-
-		else
-		{
-			points[i] = points[i+1];
-		}
+		index = 0;
 	}
 }
 
 void HAL_TIM_OC_DelayElapsedCallback(TIM_HandleTypeDef *htim)
 {
 	HAL_GPIO_TogglePin(GPIOG, GPIO_PIN_8);
+	xfTimeoutManagerTick();
 }
 /* USER CODE END 4 */
 
@@ -224,7 +233,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     HAL_IncTick();
   }
 /* USER CODE BEGIN Callback 1 */
-xfTimeoutManagerTick();
 /* USER CODE END Callback 1 */
 }
 

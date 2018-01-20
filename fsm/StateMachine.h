@@ -10,24 +10,23 @@
 #include "xf/xfreactive.h"
 #include "xf/xf.h"
 #include "xf/xfevent.h"
+#include "xf/xfeventstatus.h"
 #include "osc/gui.h"
 
-#define POINTS_NB 300
 
 class StateMachine : public XFReactive
 {
 public:
-	enum SM_STATES { ST_INIT, ST_WAIT, ST_DISPLAY }
-	StateMachine();
+	enum SM_STATES { ST_INIT, ST_WAIT, ST_DISPLAY };
+	StateMachine(uint16_t* pArrAdd, uint16_t pLength, uint16_t* triglvlAddr);
 	virtual ~StateMachine();
-
-	virtual void startBehavior();						///< Starts the behavior.
-	virtual void pushEvent(XFEvent * pEvent);			///< Injects an event into the class.
 	virtual EventStatus process(XFEvent * pEvent);		///< Called by the thread to process an event.
 
 private:
 	SM_STATES currentState;
-	uint16_t points[POINTS_NB];
+	uint16_t* points;
+	uint16_t length;
+	uint16_t* triggerLevel;
 };
 
 #endif /* STATEMACHINE_H_ */

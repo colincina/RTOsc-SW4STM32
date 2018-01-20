@@ -64,7 +64,7 @@ void guiInit()
 	gwinClear(ghGraph);
 }
 
-void guiDrawGraphPoints(uint16_t * values, uint16_t count)
+void guiDrawGraphPoints(uint16_t * values, uint16_t count, uint16_t* triggerLevel)
 {
 	const uint32_t MAX_WIDTH = 300;
 	const uint32_t MAX_HEIGHT = 200;
@@ -83,5 +83,8 @@ void guiDrawGraphPoints(uint16_t * values, uint16_t count)
 			y = values[i] * MAX_HEIGHT / 4096;		// Scaling
 			gwinGraphDrawPoint(ghGraph, x, y);
 		}
+
+		uint32_t level = (*triggerLevel) * MAX_HEIGHT / 4096;
+		gwinDrawLine(ghGraph, 0, level, 10, level);
 	}
 }
